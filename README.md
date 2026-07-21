@@ -1,8 +1,8 @@
-# Codex UI Finish Gate challenge seed
+# STOP UI SLOP: Codex Finish Gate
 
-A small, intentionally incomplete, dependency-free challenge seed that gives Codex a concrete definition of “finished” for product UI work.
+**A working UI is not finished if it only survives the happy path.**
 
-Generic agent UI is often a context and verification problem, not a prompt-length problem. This repository supplies:
+This dependency-free challenge forces Codex past the generic first draft and gives “finished” a concrete, testable meaning. It supplies:
 
 - durable `AGENTS.md` instructions for UI changes;
 - a five-state billing-settings task instead of a happy-path mockup;
@@ -10,7 +10,7 @@ Generic agent UI is often a context and verification problem, not a prompt-lengt
 - a deterministic behavioral verification command;
 - a finish-gate checklist for visual review, accessibility, and product specificity.
 
-It does **not** claim that a prompt, model, or product will improve your design. It is a reproducible starter for testing your own workflow.
+It does one thing: makes “finished” testable. The verifier catches skipped product states; the rendered finish gate still decides whether the UI deserves to ship.
 
 ## Try it with Codex
 
@@ -76,11 +76,11 @@ Evidence:
 
 ## Optional: add real interface context
 
-This starter is useful on its own. If you want Codex to work from real interface references and a documented contract → evidence → manifest validation → audit → critique workflow, [connect UIZZE Agent Connector](https://uizze.com/?view=agent&utm_source=github&utm_medium=starter_repo&utm_campaign=github_codex_ui_finish_gate_v1&utm_content=readme_agent_connector).
+This starter is useful on its own. If you want Codex to work from real interface references and a documented contract → evidence → manifest validation → audit → critique workflow, [connect UIZZE](https://uizze.com).
 
-For a separate review of the finished interface, run the free [UIZZE UI Specificity Check](https://uizze.com/tools/ui-specificity-check?utm_source=github&utm_medium=starter_repo&utm_campaign=github_codex_ui_finish_gate_v1&utm_content=readme_specificity_check). It checks the implementation evidence for missing states and generic UI patterns, then produces a local report without uploading the project.
+For a separate review of the finished interface, run the free [UIZZE UI Specificity Check](https://uizze.com/tools/ui-specificity-check). It checks the implementation evidence for missing states and generic UI patterns, then produces a local report without uploading the project.
 
-Disclosure: this starter is prepared by UIZZE and published by Samuel Bushi, a UIZZE founder/operator. The optional links above are UIZZE product links with campaign attribution. Existing paid UIZZE users are excluded from acquisition counts and direct marketing.
+Disclosure: this starter is prepared by UIZZE and published by Samuel Bushi, a UIZZE founder/operator. The optional links above are UIZZE product links.
 
 ## Repository topics
 
