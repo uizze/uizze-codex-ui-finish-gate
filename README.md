@@ -1,6 +1,6 @@
 # STOP UI SLOP: Codex Finish Gate
 
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/samuelbushi/uizze-codex-ui-finish-gate/badge)](https://scorecard.dev/viewer/?uri=github.com/samuelbushi/uizze-codex-ui-finish-gate)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/uizze/uizze-codex-ui-finish-gate/badge)](https://scorecard.dev/viewer/?uri=github.com/uizze/uizze-codex-ui-finish-gate)
 
 **A working UI is not finished if it only survives the happy path.**
 
@@ -17,7 +17,7 @@ It does one thing: makes “finished” testable. The verifier catches skipped p
 ## Try it with Codex
 
 ```bash
-git clone https://github.com/samuelbushi/uizze-codex-ui-finish-gate.git
+git clone https://github.com/uizze/uizze-codex-ui-finish-gate.git
 cd uizze-codex-ui-finish-gate
 npm run verify
 npm run dev
